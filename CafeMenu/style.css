@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #e1bb80; */
+    background-image: url('https://img.freepik.com/free-photo/top-view-roasted-coffee-beans-scattered-brown-paper-texture-background-with-copy-space_141793-7136.jpg?w=2000');
+    padding: 50px;
+    background-repeat: no-repeat;
+}
+
+
+h1,p,h2{
+    /* margin: 10px; */
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1,h2{
+    font-family: Impact,serif;
+}
+
+#menu{
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 5px auto; */
+    padding-left: 20px ;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #edc4b3;
+    width: 70%;
+}
+
+.item p{
+    display: inline-block;
+}
+
+.flavor,.dessert{
+    text-align: left;
+    /* display: inline-block; */
+    width: 75%;
+    /* border: 1px solid red; */
+}
+
+.price{
+    text-align: right;
+    /* display: inline-block; */
+    width:24% ;
+    /* border: 1px solid green; */
+}
+
+hr, #bottomLine{
+    background-color: darkred;
+    border-color: brown;
+    height: 3px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+#bottomLine{
+    margin-top: 25px;
+}
+
+#established{
+    font-style: italic;
+}
+
+.icons{
+    display: block;
+    margin: 5px auto;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+}
+
+
+
+
+
